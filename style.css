@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica;
+  /* font-size: 22px; */
+  color: seashell;
+  background-color: #000;
+  opacity: 0.9;
+}
+
+/* Section 1 */
+.section-1 {
+  width: 100%;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 30;
+}
+
+.logo {
+  width: 160px;
+  height: 50px;
+  margin-left: 10px;
+  background-image: url(./img/img-tea-cozy-logo.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+
+.navbar ul {
+  display: inline-flex;
+  list-style: none;
+  text-decoration: underline;
+}
+
+.navbar ul li {
+  padding-left: 30px;
+  font-size: 22px;
+}
+/* End of Section 1 */
+
+/* Section 2 */
+.section-2 {
+  margin: 70px auto 0;
+  width: 1200px;
+  height: 700px;
+  background-image: url(./img/img-mission-background.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  position: relative;
+}
+
+.heading-section2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 90px;
+  position: absolute;
+  top: 300px;
+  width: 100%;
+}
+
+.heading-section2 h4 {
+  font-size: 20px;
+  margin-top: 8px;
+}
+
+/* End of Section 2 */
+
+/* Section 3 */
+.section-3 {
+  width: 100%;
+  height: 630px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading-section3 {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 90px;
+}
+
+.heading-section3 h2 {
+  margin-bottom: 10px;
+  font-size: 26px;
+}
+
+.heading-section3 h4 {
+  font-size: 18px;
+}
+
+.tea-colection {
+  width: 1000px;
+  height: 500px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.tea-type {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.tea-img img {
+  width: 300px;
+  height: 200px;
+}
+
+.tea-name {
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* End of Section 3 */
+
+/* Section 4 */
+.section-4 {
+  margin: 70px auto 0;
+  width: 1200px;
+  height: 500px;
+  background-image: url(./img/img-locations-background.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  position: relative;
+}
+
+.container {
+  width: 980px;
+  height: 300px;
+  position: absolute;
+  top: calc(50% - 170px);
+  left: calc(50% - 490px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: none;
+}
+
+.section-4-heading {
+  background: none;
+}
+
+.container h2 {
+  background: none;
+  margin-bottom: 15px;
+}
+
+.location {
+  display: flex;
+  background: none;
+}
+
+.location-item {
+  margin: 0 20px;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  opacity: 1;
+  background-color: #000;
+  border-radius: 10px;
+}
+
+/* End of Section 4 */
+
+/* Section 5 */
+.section-5 {
+  width: 100%;
+  height: 250px;
+}
+
+.section-5 .top {
+  text-align: center;
+  height: 200px;
+}
+
+.section-5 .top h2 {
+  margin-top: 10px;
+}
+
+.section-5 .top h5 {
+  margin: 30px 0;
+}
+
+.section-5 .bottom {
+  height: 50px;
+  margin-left: 20px;
+}
+/* End of Section 5 */
